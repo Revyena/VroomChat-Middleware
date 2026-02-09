@@ -10,7 +10,7 @@ services:
     env_file:
         - .env
     ports:
-      - "8001:8000"
+      - "8000:8000"
     volumes:
       - .:/app:cached   # host code mounted for hot reload
     depends_on:
