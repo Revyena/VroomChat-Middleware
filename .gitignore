@@ -24,3 +24,5 @@ Homestead.yaml
 Thumbs.db
 rr
 .rr.yaml
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
